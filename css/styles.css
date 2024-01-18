@@ -1,0 +1,18 @@
+:root{
+    --text-font-family:'Roboto', sans-serif;
+    --text-font-webstudio:'Raleway', sans-serif;
+    --white-color:#FFFFFFFF;
+    --logo-color: #4d5ae5;
+
+}
+
+body {
+    font-family: var(--text-font-family)
+    color: #434455
+    background-color:var(var(--white-color)))
+    
+}
+
+.logo-style{
+    text-transform: uppercase;
+}
