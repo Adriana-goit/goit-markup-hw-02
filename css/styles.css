@@ -1,18 +1,30 @@
 :root{
     --text-font-family:'Roboto', sans-serif;
     --text-font-webstudio:'Raleway', sans-serif;
-    --white-color:#FFFFFFFF;
-    --logo-color: #4d5ae5;
+    --white-color: #FFFFFFFF;
+    --logo-color:  #4d5ae5;
+    --text-color-black: #434455
 
 }
 
 body {
-    font-family: var(--text-font-family)
-    color: #434455
-    background-color:var(var(--white-color)))
+    font-family: var(--text-font-family);
+    background-color: var(--white-color);
+    color: var(--text-color-black);
     
 }
 
 .logo-style{
     text-transform: uppercase;
+    color: black;
+    font-family: var(--text-font-webstudio);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    
+}
+
+.web-style{
+    color: var(--logo-color);
 }
