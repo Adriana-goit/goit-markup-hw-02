@@ -2,7 +2,8 @@
     --text-font-family:'Roboto', sans-serif;
     --text-font-webstudio:'Raleway', sans-serif;
     --white-color: #FFFFFFFF;
-    --logo-color:  #4d5ae5;
+    --web-logo-color:  #4d5ae5;
+    --studio-logo-color: #2e2f42
     --text-color-black: #434455
 
 }
@@ -16,7 +17,7 @@ body {
 
 .logo-style{
     text-transform: uppercase;
-    color: black;
+    color: #4d5ae5;
     font-family: var(--text-font-webstudio);
     font-weight: 800;
     font-size: 18px;
@@ -25,6 +26,6 @@ body {
     
 }
 
-.web-style{
-    color: var(--logo-color);
+.studi-style{
+    color: #2e2f42;
 }
