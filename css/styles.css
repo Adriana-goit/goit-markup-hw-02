@@ -1,18 +1,25 @@
 :root{
     --text-font-family:'Roboto', sans-serif;
     --text-font-webstudio:'Raleway', sans-serif;
-    --white-color: #FFFFFFFF;
+    --text-color:  #434455 ;
+    --white-color:  #FFFFFFFF ;
     --web-logo-color:  #4d5ae5;
-    --studio-logo-color: #2e2f42
-    --text-color-black: #434455
+    --studio-logo-color: #2e2f42 ;
+    
 
 }
 
 body {
     font-family: var(--text-font-family);
     background-color: var(--white-color);
-    color: var(--text-color-black);
+    color: var(--text-color);
     
+    
+}
+
+.studi-style{
+    color: var(--studio-logo-color);
+
 }
 
 .logo-style{
@@ -26,6 +33,6 @@ body {
     
 }
 
-.studi-style{
-    color: #2e2f42;
+.link{
+    text-decoration: none;
 }
