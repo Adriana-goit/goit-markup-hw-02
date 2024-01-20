@@ -40,3 +40,40 @@ body {
 .list{
     text-decoration: none;
 }
+
+.nav-studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--studio-logo-color);
+}
+.nav-studio:hover,  
+.nav-studio:focus{
+    color: #404bbf;
+}
+
+.nav-portofolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--studio-logo-color);
+}
+.nav-portofolio:hover,  
+.nav-portofolio:focus{
+    color: #404bbf;
+}
+
+.nav-contacts{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--studio-logo-color);
+}
+
+.nav-contacts:hover,  
+.nav-contacts:focus{
+    color: #404bbf;
+}
