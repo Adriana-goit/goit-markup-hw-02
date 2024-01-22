@@ -6,17 +6,12 @@
     --web-logo-color:  #4d5ae5;
     --studio-logo-color: #2e2f42 ;
     --footer-color-text:#F4F4FD;
-
-    
-
 }
 
 body {
     font-family: var(--text-font-family);
     background-color: var(--white-color);
     color: var(--text-color);
-    
-    
 }
 
 .studio-style{
