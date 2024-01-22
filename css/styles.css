@@ -130,12 +130,21 @@ body {
     text-transform: capitalize;
     color: var(--studio-logo-color);
 }
+.image-team-section{
+    background-color: #ffffff;
+}
 
 .team-name{
-    background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--studio-logo-color);
+}
+
+.job-title-team{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
