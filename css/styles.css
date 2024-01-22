@@ -5,6 +5,8 @@
     --white-color:  #FFFFFFFF ;
     --web-logo-color:  #4d5ae5;
     --studio-logo-color: #2e2f42 ;
+    --footer-color-text:#F4F4FD;
+
     
 
 }
@@ -129,7 +131,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--studio-logo-color);
-    background-color: #FFFFFFFF
 }
 .image-team-section{
     background-color: #ffffff;
@@ -141,7 +142,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--studio-logo-color);
-    background-color: #FFFFFFFF
+    
 }
 
 .job-title-team{
@@ -149,4 +150,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.footer-section{
+    background-color: var(--studio-logo-color);
+}
+.studio-style-footer{
+    color: #f4f4f4fd;
+}
+
+.footer-content{
+    line-height: 1.5;
+    color:var(--footer-color-text);
+    letter-spacing: 0.02em;
 }
