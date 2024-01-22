@@ -65,3 +65,46 @@ body {
 .contact-address:focus{
     color: #404bbf;
 }
+
+.hero-section{
+    background-color: var(--studio-logo-color);
+}
+
+.hero-title-style{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align:center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.order-service-button{
+    background-color: #4d5ae5;
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.order-service-button:hover,
+.order-service-button:focus{
+    color: #404bbf;
+    cursor: pointer;
+}
+
+.strategy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--studio-logo-color);
+}
+
+.strategy-paragraf{
+    font-size: 16px ;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}  
