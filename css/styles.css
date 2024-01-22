@@ -90,7 +90,7 @@ body {
 
 .order-service-button:hover,
 .order-service-button:focus{
-    color: #404bbf;
+    background-color: #404bbf;
     cursor: pointer;
 }
 
@@ -108,3 +108,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }  
+
+.what-we-are-doing{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--studio-logo-color);
+}
