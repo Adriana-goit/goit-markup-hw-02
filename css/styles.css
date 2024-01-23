@@ -158,3 +158,18 @@ body {
     color:var(--footer-color-text);
     letter-spacing: 0.02em;
 }
+
+.nav-buttons-portofolio{
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--web-logo-color);
+    background-color: var(--footer-color-text);
+}  
+.nav-buttons-portofolio:hover ,
+.nav-buttons-portofolio:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
