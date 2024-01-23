@@ -172,4 +172,5 @@ body {
 .nav-buttons-portofolio:focus{
     background-color: #404BBF;
     cursor: pointer;
+    color: #FFFFFFFF;
 }
