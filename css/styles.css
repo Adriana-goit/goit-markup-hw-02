@@ -4,7 +4,7 @@
     --text-color:  #434455 ;
     --white-color:  #FFFFFFFF ;
     --web-logo-color:  #4d5ae5;
-    --studio-logo-color: #2e2f42 ;
+    --subtitle-color: #2e2f42 ;
     --footer-color-text:#F4F4FD;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .studio-style{
-    color: var(--studio-logo-color);
+    color: var(--subtitle-color);
 
 }
 
@@ -43,7 +43,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--studio-logo-color);
+    color: var(--subtitle-color);
 }
 .header-nav:hover,  
 .header-nav:focus{
@@ -64,7 +64,7 @@ body {
 }
 
 .hero-section{
-    background-color: var(--studio-logo-color);
+    background-color: var(--subtitle-color);
 }
 
 .hero-title-style{
@@ -96,7 +96,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--studio-logo-color);
+    color: var(--subtitle-color);
 }
 
 .hero-content{
@@ -112,7 +112,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--studio-logo-color);
+    color: var(--subtitle-color);
 }
 
 .team-section{
@@ -125,10 +125,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--studio-logo-color);
-}
-.image-team-section{
-    background-color: #ffffff;
+    color: var(--subtitle-color);
+    background-color: #FFFFFFFF;
 }
 
 .team-name{
@@ -136,7 +134,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--studio-logo-color);
+    color: var(--subtitle-color);
     
 }
 
@@ -148,7 +146,7 @@ body {
 }
 
 .footer-section{
-    background-color: var(--studio-logo-color);
+    background-color: var(--subtitle-color);
 }
 .studio-style-footer{
     color: #f4f4f4fd;
