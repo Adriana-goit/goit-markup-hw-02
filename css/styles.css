@@ -153,7 +153,7 @@ body {
     background-color: var(--subtitle-color);
 }
 .studio-style-footer{
-    color: #f4f4f4fd;
+    color: var(--footer-color-text)
     
 }
 
